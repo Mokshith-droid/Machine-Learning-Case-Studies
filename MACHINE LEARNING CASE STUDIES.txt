@@ -1,0 +1,87 @@
+MACHINE LEARNING CASE STUDIES
+
+
+CASE STUDY 1: OBESITY LEVEL PREDICTION
+
+2122 ROWS
+
+Dataset Name:
+ObesityDataSet_raw_and_data_sinthetic.csv
+
+Real-Life Problem:
+Predicts a person's obesity category using health measurements, eating habits, and physical activity.
+
+ML Models Used:
+1. Gradient Boosting
+2. Random Forest
+3. Decision Tree
+4. Logistic Regression
+5. MLP (Neural Network)
+6. SVM
+
+Why These Models Are Suitable:
+- Gradient Boosting learns complex patterns in health and lifestyle data.
+- Random Forest is robust and helps identify important features.
+- Decision Tree is easy to understand and interpret.
+- Logistic Regression provides a simple baseline model.
+- MLP learns complex, nonlinear relationships.
+- SVM separates different obesity categories using decision boundaries.
+
+
+CASE STUDY 2: AMAZON PRODUCT ANALYSIS
+
+1466 ROWS
+
+Dataset Name:
+amazon.csv
+
+Real-Life Problem:
+Groups similar products and identifies highly rated products based on price, discount, rating, and popularity.
+
+ML Models Used:
+1. K-Means Clustering
+2. Hierarchical Clustering
+3. DBSCAN
+4. Gaussian Mixture Model
+5. Random Forest
+
+Why These Models Are Suitable:
+- K-Means groups similar products into clusters.
+- Hierarchical Clustering shows relationships between product groups.
+- DBSCAN identifies unusual products and outliers.
+- Gaussian Mixture Model supports probabilistic clustering.
+- Random Forest predicts product rating categories.
+
+Note:
+The current dataset is suitable for product grouping and rating prediction. Personalized recommendations require suitable user-product interaction data.
+
+
+CASE STUDY 3: GOOGLE PLAY APP REVIEW SENTIMENT ANALYSIS
+
+16093-ROWS
+
+Dataset Name:
+sentiment-analysis-dataset-google-play-app-reviews.csv
+
+Real-Life Problem:
+Classifies app reviews as negative, neutral, or positive to understand customer satisfaction and identify problems reported by users.
+
+ML Models Used:
+1. Logistic Regression
+2. Complement Naive Bayes
+3. Multinomial Naive Bayes
+4. Linear SVM
+5. SGD Classifier
+
+Why These Models Are Suitable:
+- Logistic Regression works well with TF-IDF text features.
+- Complement Naive Bayes can help with imbalanced text classes.
+- Multinomial Naive Bayes is fast for text classification.
+- Linear SVM performs well with sparse text data.
+- SGD Classifier is suitable for large text datasets.
+
+
+CONCLUSION
+
+
+These three case studies address different real-life problems: obesity category prediction, Amazon product analysis, and customer review sentiment analysis. They demonstrate classification, clustering, and natural language processing techniques using machine learning.
