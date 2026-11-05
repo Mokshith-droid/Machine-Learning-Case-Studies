@@ -1,0 +1,12 @@
+GITHUB UPLOAD
+1. Extract this ZIP.
+2. Open a terminal in the extracted GitHub_ML_Case_Studies folder.
+3. Run:
+   git init
+   git add .
+   git commit -m "Add three machine learning case studies"
+   git branch -M main
+   git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+   git push -u origin main
+
+Before running each experiment, download its CSV dataset from the link in that project's README and place it in that project's data folder.
